@@ -18,6 +18,6 @@ function showData(students) {
   container.innerHTML = ''; // Clear previous content (optional)
 
   for (const student of students) {
-    container.innerHTML += <p> ${student.name} ${student.lastname} </p>;
+    container.innerHTML += `<p> ${student.name} ${student.lastname} </p>`;
   }
 }
