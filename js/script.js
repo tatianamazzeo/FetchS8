@@ -14,8 +14,8 @@ fetch(DATA_URL)
   });
 
 function showData(students) {
-  const container = document.getElementById('container'); // Ensure container has an ID
-  container.innerHTML = ''; // Clear previous content (optional)
+  const container = document.getElementById('container');
+  container.innerHTML = '';
 
   for (const student of students) {
     container.innerHTML += `<p> ${student.name} ${student.lastname} </p>`;
